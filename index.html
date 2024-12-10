@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Chetan-Pradhan/Calculator-01/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="sec-container">
+            <input id="display" readonly >
+        </div>
+        <div id="numbers">
+            <button onclick="displayNum('9')">9</button>
+            <button onclick="displayNum('8')">8</button>
+            <button onclick="displayNum('7')">7</button>
+            <button onclick="clearScreen()" class="operator">C</button>
+            <button onclick="displayNum('6')">6</button>
+            <button onclick="displayNum('5')">5</button>
+            <button onclick="displayNum('4')">4</button>
+            <button onclick="displayNum('*')" class="operator">*</button>
+            <button onclick="displayNum('3')">3</button>
+            <button onclick="displayNum('2')">2</button>
+            <button onclick="displayNum('1')">1</button>
+            <button onclick="displayNum('/')" class="operator"  >/</button>
+            <button onclick="displayNum('0')">0</button>
+            <button onclick="displayNum('-')" class="operator">-</button>
+            <button onclick="displayNum('+')" class="operator">+</button>
+            <button onclick="displayNum('.')" class="operator">.</button>
+            <button onclick="allThing()">=</button>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
